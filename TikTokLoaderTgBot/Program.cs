@@ -94,7 +94,11 @@ namespace TikTokLoaderTgBot
                 receiverOptions,
                 cancellationToken
             );
-            Console.ReadLine();
+            //Console.ReadLine();
+
+            Thread.Sleep(Timeout.Infinite);
+
+            return;
         }
     }
 }

@@ -18,4 +18,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "TikTokLoaderTgBot.dll"]
-CMD [ "arg0" ]
+CMD ["linux/console/docker/systemd"]
