@@ -6,7 +6,7 @@
 Send the bot a video link and it will send you a video in return.
 
 ## What works:
-- Video download via short and long link. (the first one when you share through the app, the second one you copy from the browser)
+- **Main function works:** Video download via short and long link. (the first one when you share through the app, the second one you copy from the browser)
 - Error handling: invalid link, video does not exist, video is larger than 50MB (limit for telegram bots)
 
 ## Plans for new features
