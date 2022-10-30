@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TikTokLoaderTgBot": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

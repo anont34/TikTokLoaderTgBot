@@ -88,6 +88,11 @@ namespace TikTokLoaderTgBot
                 using (var webClient = new System.Net.WebClient())
                 {
                     webClient.Headers.Add(System.Net.HttpRequestHeader.UserAgent, _userAgent);
+
+                    // FOR FUTURE: IT'S BAD IDEA DOWNLOAD VIDEO TO RAM MEMORY
+                    // max size 50MB, 10 users = 500MB, 100 users = 5000MB. And your VPS as usual = 1GB RAM at all
+                    // save video to files and send to user
+
                     byte[] data = webClient.DownloadData(URLforDownloadVideo);
 
                     // Telegram bots limits: send video no more than 50MB
