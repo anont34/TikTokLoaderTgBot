@@ -23,4 +23,7 @@ Send the bot a video link and it will send you a video in return.
 
 ```bash
 $ docker run -e "botToken=your:token" hard1n/tiktokloadertgbot
+
+# if you need daemon mode (work in the background)
+$ docker run -d -e "botToken=your:token" hard1n/tiktokloadertgbot
 ```
